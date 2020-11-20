@@ -20,6 +20,7 @@ namespace Assignment_05
         {
             max.Visible = false;
             userGuesses.Visible = false;
+            winPage.Visible = false;
         }
 
         protected void submitName_Click(object sender, EventArgs e)
@@ -29,6 +30,7 @@ namespace Assignment_05
             player = playerName;
             max.Visible = true;
             welcome.InnerHtml = playerName + ", choose a maximum guessing number.";
+            name.Text = "";
         }
 
         protected void submitGuess_Click(object sender, EventArgs e)
@@ -44,6 +46,7 @@ namespace Assignment_05
             int random = rndm.Next(min, MaxGuessNumber);
             randomNum = random;
             rand.InnerText = random.ToString();
+            maxGuess.Text = "";
         }
 
         protected void makeGuess_Click(object sender, EventArgs e)
@@ -55,14 +58,10 @@ namespace Assignment_05
                 userGuesses.Visible = true;
                 //update.InnerText = "try again";
                 newMin = userGuess + 1;
-                if (newMin > userGuess)
-                {
-                    update.InnerHtml = "Your allowable range is between " + newMin + " and " + newMax;
-                }
-                else
-                {
-                    update.InnerHtml = "Your guessing number is between " + newMin + " and " + MaxGuessNumber;
-                }
+                
+                
+                update.InnerHtml = "Your guessing number is between " + newMin + " and " + MaxGuessNumber;
+                
             }
             else if(userGuess > randomNum)
             {
@@ -74,8 +73,9 @@ namespace Assignment_05
             else if(userGuess == randomNum)
             {
                 winPage.Visible = true;
+                opening.InnerHtml = "";
             }
-            
+            guesses.Text = "";
         }
 
         protected void win_Click(object sender, EventArgs e)

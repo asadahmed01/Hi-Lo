@@ -1,5 +1,5 @@
 ﻿body {
-    background-color: lightgray;
+    
     text-align: center;
     
 }
@@ -27,6 +27,7 @@
     width: 300px;
     height: 50px;
     font-size: 25px;
+    color: white;
     border: none;
     border-radius: 5px;
     margin-bottom: 300px;
@@ -40,5 +41,12 @@
     border: none;
     border-radius: 5px;
     margin-bottom: 300px;
-    background-color: #7dd181;
+    background-color: #29bf12;
+}
+
+#trophy {
+    font-size: 100px;
+    color: gold;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }

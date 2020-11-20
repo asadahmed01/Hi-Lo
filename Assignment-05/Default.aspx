@@ -3,9 +3,10 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <link rel="stylesheet" runat="server" media="screen" href="/Styles.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://kit.fontawesome.com/ce849fe70c.js" ></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <div>
-        <h1 class="opening"> Welcome to the Hi-Lo Game</h1>
+        <h1 class="opening" ID="opening" runat="server"> Welcome to the Hi-Lo Game</h1>
     </div>
     
     <div ID="intro" runat="server">
@@ -51,8 +52,11 @@
     </div>
     
     <div id="winPage" runat="server">
+        <h3>Congratulations</h3>
         <h1>You Won!!!</h1>
-
+        <div id="trophy">
+            <i class="fas fa-trophy"></i>
+        </div>
         <asp:Button ID="win" runat="server" Text="Play Again" OnClick="win_Click" CssClass="win-button"/>
     </div>
 
