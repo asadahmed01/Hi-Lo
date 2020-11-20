@@ -15,6 +15,15 @@ namespace Assignment_05
     {
 
         /// <summary>
+        /// opening control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl opening;
+
+        /// <summary>
         /// intro control.
         /// </summary>
         /// <remarks>
@@ -132,6 +141,15 @@ namespace Assignment_05
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl update;
 
         /// <summary>
+        /// rand control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl rand;
+
+        /// <summary>
         /// guesses control.
         /// </summary>
         /// <remarks>
@@ -150,6 +168,24 @@ namespace Assignment_05
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
 
         /// <summary>
+        /// RegularExp control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExp;
+
+        /// <summary>
+        /// ranger control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RangeValidator ranger;
+
+        /// <summary>
         /// makeGuess control.
         /// </summary>
         /// <remarks>
@@ -157,5 +193,23 @@ namespace Assignment_05
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button makeGuess;
+
+        /// <summary>
+        /// winPage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl winPage;
+
+        /// <summary>
+        /// win control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button win;
     }
 }
