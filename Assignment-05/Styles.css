@@ -44,9 +44,18 @@
     background-color: #29bf12;
 }
 
-#trophy {
+#trophy i {
     font-size: 100px;
     color: gold;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+#trophy {
+    margin: 50px 0 20px 480px;
+
+    text-align:center;
+    border-radius: 50%;
+    width: 200px;
+    height:200px;
+    border: 2px solid lawngreen;
 }

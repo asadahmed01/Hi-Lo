@@ -1,4 +1,15 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Assignment_05._Default" %>
+﻿<%--
+ * Authors: Asad Ahmed & mohamed Abusultan
+ * Date: Nov 20, 2020
+ * Description: This program simulates the famous Hi-Lo game. In the game, the user is first asked
+ * to provide their name. without providing their name, the player will not proceed to the next 
+ * stage. Once the name is provided, the player is prompted to provide a maximum guessing number
+ * and after that they will be prompted to guess the random number generated from the maximum
+ * guessing number provided by them
+ */
+--%>
+
+<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Assignment_05._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <link rel="stylesheet" runat="server" media="screen" href="/Styles.css" />
